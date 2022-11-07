@@ -70,9 +70,11 @@ footer {
   margin-right: 10px;
 }
 
-.contee {
+.contee1 {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .isla1 {
