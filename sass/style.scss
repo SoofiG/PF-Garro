@@ -4,9 +4,9 @@
 @import "footer";
 
 
-.contee{
-display: flex;
-justify-content:center;
+.contee {
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -22,33 +22,33 @@ justify-content:center;
 
 .carousel-control-next {
     background-color: black;
-    
+
 
 }
 
-.carru{
+.carru {
     width: 70%;
 }
 
-.formsss{
+.formsss {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin: 5%;
 }
 
-.formulario{
+.formulario {
     margin-top: 10%;
 }
 
-.text__area{
+.text__area {
     width: 100%;
 }
 
-.input__personal{
+.input__personal {
     width: 25%;
 }
 
-.text__contact{
+.text__contact {
     padding: 7px;
 }
 
@@ -70,7 +70,7 @@ footer {
 
 p {
     width: 50%;
-    text-align:justify;
+    text-align: justify;
     padding: 10px;
 
 }
@@ -161,15 +161,15 @@ img {
 
 
 /*Bootstrap*/
-.carousel-inner{
+.carousel-inner {
     margin-top: 40px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     text-align: center;
     list-style-type: none;
-    
+
 }
 
-.carousel-inner p{
+.carousel-inner p {
     text-align: center;
 }
 
@@ -215,16 +215,17 @@ img {
 @media (min-width:600px) {
 
     .compra {
-     
+
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
         justify-items: center;
     }
 
-    .carousel__slide{
+    .carousel__slide {
         margin-left: 100px;
     }
+
     .contenedor.isla1 {
         background-color: #12203E;
         color: #fff;
@@ -301,7 +302,7 @@ img {
     }
 
 
-    
+
     /*Para el index*/
     .contenedor.isla1 {
         background-color: #12203E;
@@ -357,6 +358,6 @@ img {
     }
 
 
-    
+
 
 }
